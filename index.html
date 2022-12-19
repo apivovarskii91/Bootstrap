@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="libs/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="bg-secondary text-white text-center mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="my-5">Header</h1>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="assets/img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-primary"
+          aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-primary">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Галерея</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Рєєстрація</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Про нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Послуги
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Замовити автомобіль</a></li>
+                <li><a class="dropdown-item" href="#">Популярні автомобілі</a></li>
+                <li><a class="dropdown-item" href="#">Технічна підтримка</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Каталог автомобілів</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ми на карті</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакти</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Відгуки
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Про нашу компанію</a></li>
+                <li><a class="dropdown-item" href="#">Про якість обслуговування</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div class="container">
+
+    <div class="row bg-warning mb-5">
+      <div class="col-lg-6 col-md-12">
+        MAIN
+      </div>
+
+      <div class="col-lg-3 col-md-6 order-lg-first">
+        LEFT
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        RIGHT
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col bg-primary text-light text-center py-4"><span>FOOTER</span></div>
+    </div>
+
+  </div>
+
+  <script src="libs/bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
